@@ -1,0 +1,15 @@
+.body1{
+    background-image: url(https://wallpapercave.com/wp/wp9725783.jpg);
+    width:1980px;
+    height:1000px;
+    background-size: cover;
+    
+}
+.btn2 button{
+    width: 300px;
+}
+.btn3 button{
+    width: 70px;
+    margin-top: -200px;
+    margin-left: -50px;
+}

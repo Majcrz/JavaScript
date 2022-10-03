@@ -1,0 +1,44 @@
+.body1{
+    background-image: url(https://wallpapercave.com/dwp1x/wp10516119.jpg);
+    width:1980px;
+    height:1000px;
+    background-size: cover;
+    
+}
+.block{
+    background-color: rgb(108, 120, 55) outset=rgb(255, 255, 255);
+    width: 800px;
+    height: 900px;
+    margin-left: 550px;
+    padding-top: 50px;
+    border: 5px solid rgb(135, 198, 19) ;
+    background-image: url(https://wallpapercave.com/dwp1x/wp4022734.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-position: -500px;
+    
+    
+}
+.dateup{
+    color: aliceblue;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.form2{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+.btn2{
+    margin-left: 360px;
+}
+.form2 input{
+    background-color: rgb(127, 255, 172);
+    border: 2px solid rgb(187, 255, 0);
+}

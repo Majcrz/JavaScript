@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="height_converter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="body1">
+        <div class="body1">
+            <div class="row" style="height: 100px;"></div>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4" style="background-color: rgb(0, 0, 0); height: 700px;"> 
+               <div class="row" style="height: 50px;"></div>
+               <div class="row">
+               <div class="col-sm-3"></div>
+               <div class="col-sm-7" style="color: white; font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif;">HEIGHT CONVERTOR</div>
+
+               </div> 
+                <div class="row" style="height: 100px;"></div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-3" style="color: white; font-size:20px; font-family: Georgia, 'Times New Roman', Times, serif;">FEET :</div>
+                    <div class="col-sm-5"><input type="text" class="form-control" id="a1"></div>
+                </div>
+                <div class="row" style="height: 100px;"></div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-3" style="color: white; font-size:20px; font-family: Georgia, 'Times New Roman', Times, serif;">INCHES :</div>
+                    <div class="col-sm-5"><input type="text" class="form-control" id="a2"></div>
+                </div>
+                <div class="row" style="height: 100px;"></div>
+                <div class="row">
+                    <div class="col-sm-3"></div>
+                    <div class="btn2">
+                    <div class="col-sm-6"><div class="btn2"><div class="datebtn"><button type="button" class="btn btn-warning" onclick="convert()">Convert To Cm</button></div></div></div></div>
+                </div>
+                <div class="row" style="height: 100px;"></div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-3" style="color: white; font-size:20px; font-family: Georgia, 'Times New Roman', Times, serif;">CENTIMETER </div>
+                    <div class="col-sm-5"><input type="text" class="form-control" id="a3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6"></div>
+                    <div class="btn2">
+                    <div class="col-sm-1"><div class="btn3"><div class="datebtn"><button type="button" class="btn btn-danger" onclick="clearscreen()">Clear</button></div></div></div></div>
+                </div>
+                </div>
+                </div>
+                <script>
+                    function convert(){
+                        var a=document.getElementById("a1").value
+                        console.log(a)
+                        var b=parseFloat(document.getElementById("a2").value)
+                        console.log(b)
+                        var c=a*12
+                        console.log(c)
+                        var d=parseFloat(c+b)
+                        console.log(d)
+                        var e=d*2.54
+                        console.log(e)
+                        document.getElementById("a3").value=e
+
+                    }
+                    function clearscreen(){
+                       document.getElementById("a1").value=""
+                       document.getElementById("a2").value=""
+                       document.getElementById("a3").value=""
+                    }
+                </script>
+</body>
+</html>

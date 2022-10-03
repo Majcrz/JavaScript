@@ -1,0 +1,18 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://th.bing.com/th/id/OIP.5_WQfsWnPRZWSRIkCuhTpQHaD5?pid=ImgDet&rs=1);
+    height: 900px;
+    
+    
+}
+.body2{
+   padding-top: 400px;
+}
+#a3{
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.form-group{
+    width: 200px;
+}

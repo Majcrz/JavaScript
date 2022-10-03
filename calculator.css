@@ -1,0 +1,21 @@
+.body1{
+    background-image: url(https://wallpapercave.com/wp/wp10855777.jpg);
+    width:1980px;
+    height:1000px;
+    background-size: cover;
+    
+}
+.form1 input{
+    
+    height: 100px;
+    background-color: rgb(191, 238, 238);
+    margin-top: 20px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btn1 button{
+    height: 50px;
+    width: 50px;
+
+}
